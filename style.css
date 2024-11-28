@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+header {
+    background-color: #e2dddd;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: italic;
+}
+
+form {
+    background-color: #e1ab08;
+    padding: 14px 0;
+    text-align: center;
+
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    color: green;
+    background-color: white;
+}
+
+button:hover {
+    color: rgb(31, 227, 20);
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    color: rgb(235, 105, 24);
+    background-color: white;
+}
+
+#botao-cancelar:hover {
+    color: rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+.tarefa_feita:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+li h3 {
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+tbody li {
+    border: 5px solid #ccc;
+    text-align: center;
+    padding: 1px 0;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 480px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+li.tarefa_feita:hover {
+    cursor: pointer;
+    background-color: red;
+}
